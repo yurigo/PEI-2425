@@ -1,0 +1,74 @@
+[
+  {
+    "nombre": "Alice",
+    "nivel": 12,
+    "clase": "Mago",
+    "estadisticas": {
+      "fuerza": 5,
+      "inteligencia": 18,
+      "destreza": 10,
+      "vida": 120,
+      "mana": 200
+    },
+    "inventario": [
+      {
+        "nombre": "Poción de Vida",
+        "tipo": "Consumible",
+        "valor": 50
+      },
+      {
+        "nombre": "Bastón Arcano",
+        "tipo": "Arma",
+        "valor": 150
+      }
+    ],
+    "habilidades": [
+      {
+        "nombre": "Bola de Fuego",
+        "nivelRequerido": 5,
+        "descripcion": "Lanza una bola de fuego que inflige daño de área."
+      },
+      {
+        "nombre": "Escudo Mágico",
+        "nivelRequerido": 10,
+        "descripcion": "Crea un escudo que absorbe daño durante 10 segundos."
+      }
+    ]
+  },
+  {
+    "nombre": "Bob",
+    "nivel": 15,
+    "clase": "Guerrero",
+    "estadisticas": {
+      "fuerza": 20,
+      "inteligencia": 6,
+      "destreza": 12,
+      "vida": 250,
+      "mana": 30
+    },
+    "inventario": [
+      {
+        "nombre": "Espada Larga",
+        "tipo": "Arma",
+        "valor": 200
+      },
+      {
+        "nombre": "Escudo de Hierro",
+        "tipo": "Defensa",
+        "valor": 100
+      }
+    ],
+    "habilidades": [
+      {
+        "nombre": "Golpe Poderoso",
+        "nivelRequerido": 7,
+        "descripcion": "Ataque físico que hace gran daño a un solo enemigo."
+      },
+      {
+        "nombre": "Grito de Guerra",
+        "nivelRequerido": 12,
+        "descripcion": "Aumenta la moral y la fuerza del equipo por un tiempo limitado."
+      }
+    ]
+  }
+]
