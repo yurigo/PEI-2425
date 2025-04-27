@@ -3,7 +3,7 @@
 ## Programación en entornos interactivos 2024-2025
 
 ### Java
-> [!DANGER] 
+> [!NOTE] 
 > [Documentación oficial JDK23](https://docs.oracle.com/en/java/javase/23/index.html)
 
 
@@ -36,7 +36,7 @@
 
 #### Tipos primitivos
 
-> [!NOTE]
+> [!TIP]
 > [ver en w3schools](https://www.w3schools.com/java/java_data_types.asp)
 
 Los **tipos primitivos** son los bloques básicos de datos en Java. Se utilizan para almacenar valores simples, como números enteros o decimales, caracteres o valores booleanos. Son eficientes en cuanto a memoria y son fundamentales para la programación en Java.
@@ -63,7 +63,7 @@ En Java, los **tipos no primitivos** incluyen clases, arrays y Strings, que perm
 
 #### Clases Wrapper
 
-> [!NOTE]
+> [!TIP]
 > [ver en w3schools](https://www.w3schools.com/java/java_wrapper_classes.asp)
 
 | Tipo de dato primitivo | Clase Wrapper |
@@ -79,7 +79,7 @@ En Java, los **tipos no primitivos** incluyen clases, arrays y Strings, que perm
 
 #### Modificadores
 
-> [!NOTE]
+> [!TIP]
 > [ver en w3schools](https://www.w3schools.com/java/java_modifiers.asp)
 
 Los **modificadores** controlan la accesibilidad y el comportamiento de los atributos, métodos y clases. Ayudan a gestionar la visibilidad y el acceso a los elementos dentro de un programa.
@@ -89,7 +89,7 @@ Los **modificadores** controlan la accesibilidad y el comportamiento de los atri
 - **`protected`**: El atributo, método o constructor es accesible dentro de la misma clase, en las clases del mismo paquete y en subclases. Esto proporciona un nivel de acceso intermedio, útil para herencia.
 - **`static`**: Los métodos y atributos estáticos son compartidos entre todas las instancias de una clase. No es necesario crear un objeto para acceder a estos elementos.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [car-example](./project-example/car-example): En este ejemplo, se utiliza el modificador `static` para implementar un contador de vehículos, que es compartido entre todas las instancias de la clase `Car`.
 
 
@@ -112,16 +112,16 @@ La herencia permite que una clase adquiera las propiedades y comportamientos de 
 ##### Polimorfismo
 El polimorfismo permite a los objetos de diferentes clases ser tratados como objetos de una clase común, especialmente a través de métodos sobreescritos.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [zoo-inheritance-example](./project-example/zoo-inheritance-example): En este ejemplo se demuestra cómo la herencia y el polimorfismo permiten crear una superclase `Animal` con comportamientos comunes, mientras que las subclases como `Dog`, `Cat`, `Capybara`... definen comportamientos específicos para cada tipo de animal.
 
 
 ##### UML
 
-> [!NOTE]
+> [!IMPORTANT]
 > [point.mdj](./project-example/point.mdj): Diagrama UML del ejemplo de `coords-example`, mostrando la relación entre las clases `Point` y `Point2`.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [zoo.mdj](./project-example/zoo.mdj): Diagrama UML para el ejemplo de `zoo-example`, ilustrando la estructura de clases `Dog`, `Bird`, `Cat`...
 
 ##### Clases y Objetos
@@ -130,10 +130,10 @@ El polimorfismo permite a los objetos de diferentes clases ser tratados como obj
 - **Objetos**: Instancias concretas de una clase, que tienen sus propios valores para los atributos definidos en la clase.
 
 
-> [!NOTE]
+> [!IMPORTANT]
 > [user-example](./project-example/user-example): Este ejemplo se utiliza para practicar la creación de clases en Java. La clase `User` tiene atributos como nombre y edad, y métodos para obtener y modificar estos atributos.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [zoo-example](./project-example/zoo-example): Este ejemplo se utiliza para practicar la creación de clases en Java. Se utilizan clases como `Dog`, `Cat`, `Bird`.
 
 
@@ -143,28 +143,28 @@ El polimorfismo permite a los objetos de diferentes clases ser tratados como obj
 
 La dependencia es una relación en la que una clase utiliza a otra para realizar una tarea específica de manera puntual.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [relations/dependency-example](./project-example/relations/dependency-example): Aquí se presenta una relación de dependencia entre `Document` y `Printer`. 
 
 ###### Asociación
 
 La asociación es una relación estructural entre dos clases donde una clase conoce o se comunica con otra.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [relations/association-example](./project-example/relations/association-example): Este ejemplo demuestra una relación de asociación entre `Company` y `Worker`.
 
 ###### Agregación
 
 La agregación es una forma especial de asociación que representa una relación "todo-parte" donde las partes pueden existir independientemente del todo.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [relations/aggregation-example](./project-example/relations/aggregation-example): En este ejemplo, se implementa una relación de agregación entre `Course` y `Subject`.
 
 ###### Composición
 
 La composición es una forma fuerte de agregación donde las partes no pueden existir sin el todo; su ciclo de vida depende del objeto principal.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [relations/composition-example](./project-example/relations/composition-example): En este ejemplo, `Person` tiene un `Heart`. El corazón no puede existir sin la persona.
 
 | Relación       | Descripción breve                                                                 | Ejemplo típico                | Independencia de objetos |
@@ -180,17 +180,17 @@ La composición es una forma fuerte de agregación donde las partes no pueden ex
 Las **clases abstractas** son clases que no pueden ser instanciadas directamente. Se utilizan para proporcionar una estructura base con algunos métodos implementados, mientras que otros métodos pueden ser declarados como abstractos, obligando a las subclases a implementarlos. Las clases abstractas permiten compartir funcionalidad común mientras se deja la implementación específica para las subclases.
 
 
-> [!NOTE]
+> [!IMPORTANT]
 > [zoo-abstract-example](./project-example/zoo-abstract-example): Este ejemplo agrega el concepto de clase abstracta, donde `Animal` se convierte en una clase abstracta, lo que impide la creación de instancias directas de `Animal`, forzando la implementación en las subclases.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [menu-abstract-example](./project-example/menu-abstract-example): Introduce el concepto de clase abstracta. `Controller` se acopla a la clase abstracta y tiene dos clases derivadas: `MenuConsole` y `MenuWindow`, que implementan diferentes comportamientos usando `Scanner` y `System.out`.
 
 ##### Interfaz
 
 Una **interfaz** es un contrato que define un conjunto de métodos que deben ser implementados por las clases que la implementan. A diferencia de las clases abstractas, las interfaces no pueden contener implementación de métodos (excepto en versiones recientes de Java donde los métodos predeterminados son permitidos), y no pueden tener estado (propiedades). Las interfaces son útiles para garantizar que diferentes clases implementen métodos similares, proporcionando flexibilidad y una estructura clara.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [menu-interface-example](./project-example/menu-interface-example): Este proyecto refina el ejemplo anterior utilizando una interfaz `Menu` en lugar de una clase abstracta. La interfaz define los métodos que deben ser implementados por las clases `MenuConsole` y `MenuWindow`.
 
 
@@ -210,18 +210,18 @@ Una **interfaz** es un contrato que define un conjunto de métodos que deben ser
 
 `System.out.println` es uno de los métodos más comunes en Java para mostrar salida en la consola. Permite imprimir texto o el valor de variables de forma fácil, ayudando a realizar depuración o mostrar mensajes al usuario.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [io-example](./project-example/io-example): Este proyecto demuestra cómo capturar entrada de texto desde la consola utilizando `Scanner` y cómo escribir en la consola con `System.out.println`.
 
 ##### User Input: Scanner
 
 La clase `Scanner` en Java se utiliza para leer la entrada del usuario desde diferentes fuentes, como la consola. Se emplea comúnmente para capturar datos introducidos por el usuario durante la ejecución de un programa.
 
-> [!NOTE]
+> [!TIP]
 > - [ver en w3schools](https://www.w3schools.com/java/java_user_input.asp)
 > - [ver en la documentación oficial](https://docs.oracle.com/en/java/javase/23/docs/api/java.base/java/util/Scanner.html)
 
-> [!NOTE]
+> [!IMPORTANT]
 > [io-example](./project-example/io-example): Este proyecto demuestra cómo capturar entrada de texto desde la consola utilizando `Scanner` y cómo escribir en la consola con `System.out.println`.
 
 
@@ -229,7 +229,7 @@ La clase `Scanner` en Java se utiliza para leer la entrada del usuario desde dif
 
 El manejo de archivos es crucial cuando se trabaja con datos persistentes. Java proporciona varias clases para leer archivos, como `FileReader` y `BufferedReader`. `FileReader` es una clase en Java utilizada para leer archivos de texto. Permite acceder a un archivo desde el sistema de archivos y leer su contenido, devolviendo los caracteres leídos uno por uno o en bloques.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [file-read-example](./project-example/file-read-example): Este proyecto muestra cómo leer un archivo de texto utilizando `FileReader` y `BufferedReader`.
 
 ##### File Output: FileWriter
@@ -240,14 +240,14 @@ Asimismo, Java proporciona varias clases para escribir archivos, como `FileWrite
 
 Las **excepciones** son eventos inesperados que interrumpen el flujo normal del programa. Java proporciona una jerarquía de excepciones para manejar diferentes tipos de errores.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [exception-example](./project-example/exception-example): Este ejemplo ilustra cómo manejar excepciones mediante un bloque `try-catch`. Si ocurre un error en el proceso, como una entrada incorrecta, se captura y se maneja de manera controlada.
 
 #### GSON
 
 La librería Gson es una herramienta de Google que permite convertir objetos Java en su representación JSON y viceversa. Esto facilita la interacción con datos JSON, como cuando se trabaja con APIs o se manejan archivos JSON. Gson es especialmente útil en aplicaciones que necesitan integrar datos externos de manera eficiente.
 
-> [!NOTE]
+> [!IMPORTANT]
 > [gson-example](./project-example/gson-example): Este ejemplo utiliza la librería `Gson` para leer un archivo JSON y mapearlo automáticamente a un modelo.
 
 
