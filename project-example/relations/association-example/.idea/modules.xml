@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/menu-interface.iml" filepath="$PROJECT_DIR$/menu-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/association-example.iml" filepath="$PROJECT_DIR$/association-example.iml" />
     </modules>
   </component>
 </project>

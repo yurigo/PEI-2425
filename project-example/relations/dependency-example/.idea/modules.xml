@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ejemplo-asociacion.iml" filepath="$PROJECT_DIR$/ejemplo-asociacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependency-example.iml" filepath="$PROJECT_DIR$/dependency-example.iml" />
     </modules>
   </component>
 </project>

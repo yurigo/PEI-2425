@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ejemplo-agregacion.iml" filepath="$PROJECT_DIR$/ejemplo-agregacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menu-interface-example.iml" filepath="$PROJECT_DIR$/menu-interface-example.iml" />
     </modules>
   </component>
 </project>
